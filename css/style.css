@@ -31,7 +31,8 @@ button {
    font-family: 'Poppins', sans-serif;
 }
 
-.banner {
+/* banner section design */
+#header {
    background: url(../images/banner.webp);
    background-repeat: no-repeat;
    background-position: center;
@@ -39,7 +40,7 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-   .banner {
+   #header {
       background: linear-gradient(#f084847c, #f084847c), url(../images/banner.webp);
       background-position: right;
    }
