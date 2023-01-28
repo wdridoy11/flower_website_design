@@ -15,6 +15,10 @@ h1 {
    font-family: 'Playfair Display', serif;
 }
 
+img {
+   max-width: 100%;
+}
+
 h2,
 h3,
 h4,
