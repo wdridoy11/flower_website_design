@@ -11,7 +11,8 @@ body {
    background: #F5F5F5;
 }
 
-h1 {
+h1,
+h2 {
    font-family: 'Playfair Display', serif;
 }
 
@@ -19,7 +20,7 @@ img {
    max-width: 100%;
 }
 
-h2,
+
 h3,
 h4,
 h5,
@@ -30,7 +31,6 @@ button {
    font-family: 'Poppins', sans-serif;
 }
 
-/* bg-[url('/images/banner.webp')] bg-cover bg-right Class Properties bg-repeat  md:bg-center */
 .banner {
    background: url(../images/banner.webp);
    background-repeat: no-repeat;
