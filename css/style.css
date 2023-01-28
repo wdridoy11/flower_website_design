@@ -29,3 +29,19 @@ a,
 button {
    font-family: 'Poppins', sans-serif;
 }
+
+/* bg-[url('/images/banner.webp')] bg-cover bg-right Class Properties bg-repeat  md:bg-center */
+.banner {
+   background: url(../images/banner.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+   .banner {
+      background: linear-gradient(#f084847c, #f084847c), url(../images/banner.webp);
+      background-position: right;
+   }
+
+}
